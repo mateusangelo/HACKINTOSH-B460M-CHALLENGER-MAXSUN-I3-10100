@@ -837,8 +837,6 @@
                     <true/>
                     <key>Flavour</key>
                     <string>Auto</string>
-                    <key>FullNvramAccess</key>
-                    <false/>
                     <key>Name</key>
                     <string>OpenShell.efi</string>
                     <key>Path</key>
@@ -1076,6 +1074,18 @@
                     <false/>
                     <key>Path</key>
                     <string>OpenRuntime.efi</string>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>LoadEarly</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>ResetNvramEntry.efi</string>
                 </dict>
             </array>
             <key>Input</key>
